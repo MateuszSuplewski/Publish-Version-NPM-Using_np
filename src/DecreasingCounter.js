@@ -3,8 +3,8 @@ import { Button } from './Button.js';
 
 export const DecreasingCounter = class extends Counter {
     //jeżeli nie ma konstuktora to automatycznie będzie wykonywany konstruktor klasy dziedziczoenj
-    constructor(selector) {
-        super(selector); //lub możemy wywołać konstuktor
+    constructor(...all) {
+        super(...all); //lub możemy wywołać konstuktor
     }
 
     dec() {
